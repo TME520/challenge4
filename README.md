@@ -28,7 +28,7 @@ Please refer to [diagram.pdf](https://github.com/TME520/challenge4/blob/master/d
 ## Explanation for the above diagram
 
 - **CloudFront + WAF**: These two replace the Varnish cache. They provide a Content Delivery Network and a rules-based security system toi avoid, among other things, *DDoS*,
-- **Elastic Beanstalk (PHP and JAVA)**: They replace the WEB servers and the API servers. They are a very convenient way to run PHP and Tomcat in a sclalable way,
+- **Elastic Beanstalk (PHP and JAVA)**: They replace the WEB servers and the API servers. They are a very convenient secure, scalable way to run PHP and Tomcat,
 - **Elastic IP and NAT gateway**: They are required to allow the Elastic Beanstalk services to communicate with 3rd party APIs via single authorized IPs,
 - **Amazon RDS for MariaDB**: They are a very scalable, cost-efficient, secure and performant way to replace the MariaDB servers,
 - **ElastiCache for Redis**: Again, a very scalable, cost-efficient, secure and performant way to replace the Redis server.
