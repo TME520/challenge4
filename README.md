@@ -33,7 +33,7 @@ Please refer to [diagram.pdf](https://github.com/TME520/challenge4/blob/master/d
 - **Amazon RDS for MariaDB**: They are a very scalable, cost-efficient, secure and performant way to replace the MariaDB servers,
 - **ElastiCache for Redis**: Again, a very scalable, cost-efficient, secure and performant way to replace the Redis server.
 
-I used a many managed services (*CloudFront*, *Elastic Beanstalk*, *Amazon RDS*, *ElastiCache*) as possible in this infrastructure, because they are a very good way to offload toil to Amazon and free up a lot of time for your local tech team to work on deep trouble shooting and improvements.
+I used as many managed services (*CloudFront*, *Elastic Beanstalk*, *Amazon RDS*, *ElastiCache*) as possible in this infrastructure, because they are a very good way to offload toil to Amazon and free up a lot of time for your local tech team to work on deep trouble shooting and improvements.
 
 Here is a list of the repetitive, time-consuming tasks that using managed services gets you rid of:
 
