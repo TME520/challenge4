@@ -42,6 +42,6 @@ Here is a list of the repetitive, time-consuming tasks that using managed servic
 - Services updates (MariaDB, Varnish...),
 - Maintenance-related downtime,
 - Fine-tuning autoscaling,
-- Firefighting *DDoS**.
+- Firefighting *DDoS* and other security-related incidents.
 
 All of the above is known to slow down and sometimes prevent systems and application maintenance, creating tech debt and unmanageable legacy services.
