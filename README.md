@@ -21,6 +21,8 @@ The proposed solution diagram should clearly show what AWS products are proposed
 - 1 x Redis (session storage)
 
 ## AWS architecture diagram
-Please refer to [diagram.pdf](https://github.com/TME520/challenge4/blob/master/diagram.pdf).
+![AWS architecture diagram](diagram.png)
+
+Please refer to [diagram.pdf](https://github.com/TME520/challenge4/blob/master/diagram.pdf) for a printable version.
 
 ## Explanation for the above diagram
